@@ -1,0 +1,18 @@
+.btn {
+  display: block;
+  font-size: 1.875rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--color__400);
+  color: var(--color__999);
+  padding: 1.875rem;
+  border-radius: 11px;
+  box-shadow: var(--shadow--small), var(--shadow--large);
+  transition: background-color var(--transition--out);
+}
+
+.btn:hover {
+  background-color: var(--color__500);
+  transition: background-color var(--transition--in);
+}

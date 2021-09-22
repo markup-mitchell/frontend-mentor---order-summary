@@ -1,0 +1,45 @@
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: var(--color__200);
+  background-color: var(--color__950);
+  padding: 2rem;
+  border-radius: 11px;
+}
+
+.annual-plan__price {
+  font-weight: 500;
+  color: var(--color__700);
+  margin-top: 3px;
+}
+
+.annual-plan__change-link {
+  color: var(--color__400);
+  font-weight: 700;
+  transition: color var(--transition--out);
+}
+
+.annual-plan__change-link:hover {
+  color: var(--color__500);
+  transition: color var(--transition--in);
+}
+
+.annual-plan__content--left,
+.annual-plan__content--right {
+  display: flex;
+  align-items: center;
+}
+
+.annual-plan__content--left > div {
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+
+@media (min-width: 500px) {
+  .annual-plan {
+    padding: 3rem;
+    font-size: 2rem;
+  }
+}

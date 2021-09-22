@@ -1,0 +1,8 @@
+@import './theme.css';
+@import './btn.css';
+@import './annual-plan.css';
+
+html {
+  font-family: var(--font-primary);
+  padding: 2rem;
+}
