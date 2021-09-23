@@ -1,8 +1,11 @@
 @import './theme.css';
 @import './btn.css';
 @import './annual-plan.css';
+@import './card.css';
+@import './order-summary-layout.css';
 
 html {
   font-family: var(--font-primary);
   padding: 2rem;
+  background-color: var(--color__900);
 }

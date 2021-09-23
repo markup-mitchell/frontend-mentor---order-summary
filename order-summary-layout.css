@@ -1,0 +1,32 @@
+.order-summary-layout {
+  padding: 4rem 3rem;
+  text-align: center;
+}
+
+.order-summary-layout > h1 {
+  font-weight: 900;
+  font-size: 2.75rem;
+  margin: 0 0 2rem;
+}
+
+.order-summary-layout > p {
+  font-size: 1.875rem;
+  line-height: 25px;
+  color: var(--color__700);
+}
+
+.order-summary-layout__slot {
+  margin-top: 3rem;
+}
+
+@media (min-width: 500px) {
+  .order-summary-layout {
+    padding: 6rem 5.625rem;
+  }
+  .order-summary-layout__slot {
+    margin-top: 4rem;
+  }
+  .order-summary-layout__slot:first-of-type {
+    margin-top: 2.5rem;
+  }
+}
