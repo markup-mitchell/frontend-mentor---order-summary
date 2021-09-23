@@ -1,12 +1,12 @@
 .card {
-  background-color: var(--color__999);
-  border-radius: 2.5rem;
+  border-radius: 20px;
   overflow: hidden;
-  box-shadow: var(--shadow--small), var(--shadow--large); /* reduce spread */
+  background-color: var(--color__999);
+  box-shadow: var(--shadow--small), var(--shadow--large);
 }
 
 .card > img {
-  width: 100%;
   display: block;
   box-shadow: var(--shadow--small);
+  width: 100%;
 }

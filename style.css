@@ -4,8 +4,28 @@
 @import './card.css';
 @import './order-summary-layout.css';
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: var(--font-primary);
-  padding: 2rem;
-  background-color: var(--color__900);
+  background-color: var(--color__800);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  position: relative;
+}
+
+.page-layout {
+  flex-basis: 450px;
 }
