@@ -7,6 +7,7 @@
 
 .card > img {
   display: block;
-  box-shadow: var(--shadow--small);
+  /* I'm sure there was shadow on this image originally?! */
+  /* box-shadow: var(--shadow--small); */
   width: 100%;
 }
