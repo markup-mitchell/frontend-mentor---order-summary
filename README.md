@@ -7,3 +7,5 @@ Made some screencasts about this process and while the challenge is straightforw
 1. [Call To Action component](https://www.youtube.com/watch?v=BKBFPeuL3dE&list=PLNTGU1qzLWUVI-a1uwEUM2W8IwINgh1aK&index=3)
 1. [Annual Plan component](https://www.youtube.com/watch?v=UgSqZNWjoUU&list=PLNTGU1qzLWUVI-a1uwEUM2W8IwINgh1aK&index=4)
 1. Card and layout component (WIP)
+
+This episode of Adam Watham's [Fullstack Radio Podcast with Mark Dalgleish](https://fullstackradio.com/134) is *excellent* on the topic of layout components. 
