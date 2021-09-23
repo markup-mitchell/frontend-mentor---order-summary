@@ -8,7 +8,8 @@
   color: var(--color__999);
   padding: 1.875rem;
   border-radius: 11px;
-  box-shadow: var(--shadow--small), var(--shadow--large);
+  /* box-shadow: var(--shadow--small), var(--shadow--large); */
+  box-shadow: var(--shadow--large);
   transition: background-color var(--transition--out);
 }
 
